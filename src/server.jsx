@@ -29,8 +29,7 @@ app.get('/', function(req, res) {
         </Provider>
     );
     res.render('index', {
-        html: html,
-        initialState: JSON.stringify(store.getState())
+        html: html
     });
 });
 

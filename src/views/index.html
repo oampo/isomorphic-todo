@@ -3,8 +3,4 @@
 
 <div id="app">{% autoescape false %}{{ html }}{% endautoescape %}</div>
 
-<script>
-    window.INITIAL_STATE = {% autoescape false %}{{ initialState }}{% endautoescape %};
-</script>
-
 <script src="bundle.js"></script>
